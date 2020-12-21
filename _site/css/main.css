@@ -7,7 +7,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
-  border-color: #ff2727;
+  border-color: #ff3f3f;
   border-width: 3px;
   max-width: 50px; }
 
@@ -18,9 +18,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #ff2727; }
+  color: #ff3f3f; }
   a:hover, a:focus {
-    color: #f30000; }
+    color: #ff0c0c; }
 
 h1,
 h2,
@@ -36,14 +36,15 @@ p {
   margin-bottom: 20px; }
 
 .bg-primary {
-  background-color: #ff2727; }
+  background-color: #ff3f3f; }
 
 .bg-dark {
   background-color: #540101;
   color: white; }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 2px 2px 2px black; }
 
 section {
   padding: 100px 0; }
@@ -62,12 +63,12 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .navbar-default .navbar-header .navbar-brand {
-    color: #ff2727;
+    color: #ff3f3f;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase; }
     .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
-      color: #f30000; }
+      color: #ff0c0c; }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     text-transform: uppercase;
@@ -76,10 +77,10 @@ aside {
     color: #540101; }
     .navbar-default .nav > li > a:hover,
     .navbar-default .nav > li > a:focus:hover {
-      color: #ff2727; }
+      color: #ff3f3f; }
   .navbar-default .nav > li.active > a,
   .navbar-default .nav > li.active > a:focus {
-    color: #ff2727 !important;
+    color: #ff3f3f !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:hover,
     .navbar-default .nav > li.active > a:focus:hover {
@@ -102,16 +103,16 @@ aside {
         background-color: white;
         border-color: rgba(84, 1, 1, 0.5); }
         .navbar-default.affix .navbar-header .navbar-brand {
-          color: #ff2727;
+          color: #ff3f3f;
           font-size: 14px; }
           .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
-            color: #f30000; }
+            color: #ff0c0c; }
         .navbar-default.affix .nav > li > a,
         .navbar-default.affix .nav > li > a:focus {
           color: #540101; }
           .navbar-default.affix .nav > li > a:hover,
           .navbar-default.affix .nav > li > a:focus:hover {
-            color: #ff2727; } }
+            color: #ff3f3f; } }
 
 header {
   position: relative;
@@ -183,7 +184,7 @@ header {
     color: white;
     opacity: 0;
     display: block;
-    background: rgba(255, 39, 39, 0.9);
+    background: rgba(255, 63, 63, 0.9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -220,7 +221,7 @@ header {
   margin: 0 auto 20px; }
 
 .text-primary {
-  color: #ff2727; }
+  color: #ff3f3f; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -248,22 +249,22 @@ header {
 
 .btn-primary {
   color: white;
-  background-color: #ff2727;
-  border-color: #ff2727;
+  background-color: #ff3f3f;
+  border-color: #ff3f3f;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary {
     color: white;
-    background-color: #ff0e0e;
-    border-color: #ff0303; }
+    background-color: #ff2626;
+    border-color: #ff1b1b; }
   .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle .btn-primary {
     background-image: none; }
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: #ff2727;
-    border-color: #ff2727; }
+    background-color: #ff3f3f;
+    border-color: #ff3f3f; }
   .btn-primary .badge {
-    color: #ff2727;
+    color: #ff3f3f;
     background-color: white; }
 
 .btn {
